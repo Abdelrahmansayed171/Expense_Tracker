@@ -84,11 +84,13 @@ body {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #00ff6a;
+  font-weight: 800;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: #ffa59b;
+  font-weight: 800;
 }
 
 input[type='text'],
@@ -162,11 +164,11 @@ button:focus-visible {
 }
 
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid #00ff6a;
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #ff1900;
 }
 
 .delete-btn {

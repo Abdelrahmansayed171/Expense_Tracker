@@ -1,0 +1,6 @@
+- use compnent level State in AddTransaction  
+- pass Transaction list over a context with creating context folder
+- ** Note: if we have complex, multiple source of states and contexts related to each other, we create file carries state or context for each source
+- makk Reducer for this list
+- make Provider to pass the context to each child 
+- 

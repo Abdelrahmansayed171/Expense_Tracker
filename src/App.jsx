@@ -5,19 +5,19 @@ import Balance from './Components/Balance'
 import Revenue from './Components/Revenue'
 import TransactionList from './Components/TransactionList'
 import AddTransaction from './Components/AddTransaction'
+import { GlobalProvider } from './context/GlobalState'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header />
-      <div >
+      <GlobalProvider>
         <Balance />
         <Revenue/>
         <TransactionList/>
         <AddTransaction/>
-      </div>
+      </GlobalProvider>
       
     </>
   )
