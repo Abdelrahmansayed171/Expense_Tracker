@@ -1,8 +1,11 @@
-# React + Vite
+ <p>
+    Developing pretty small Expense Tracker Application 
+    Earning some skills on React Hooks, APIs (useState, useReducer, useContext)
+ </p>
+ 
+# Click below to watch how it works
+[![Watch the Video](https://img.youtube.com/vi/-C_8fxH8YQE/0.jpg)](https://www.youtube.com/watch?v=-C_8fxH8YQE)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
